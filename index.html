@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <img class="header__icon" src="./assets/images/menu.svg" alt="header icon">
+            <div class="header__right-block">
+                <div class="header__select-wrap">
+                    <select name="lang" class="header__select">
+                        <option value="RU" selected>RU</option>
+                    </select>
+                    <img class="header__select-icon" src="./assets/images/arrow.svg" alt="">
+                </div>
+                <button name="lang" class="header__button">Войти</select>
+            </div>
+        </header>
+        <main class="main">
+            <img class="main__dots-icon" src="./assets/images/dots.svg" alt="">
+            <h1 class="title">Электронная библиотека</h1>
+            <div class="search-input__wrap">
+                <input class="search-input" placeholder="Что будем искать?" type='text'>
+                <img src="/assets/images/search.svg" class="search-input__icon">
+            </div>
+            <div class="buttons-and-cards__wrap">
+                <div class="search-buttons">
+                    <button
+                        class="search-button"
+                    >
+                        Расширенный поиск
+                    </button>
+                    <button
+                        class="search-button"
+                    >
+                        Атрибутный поиск
+                    </button>
+                </div>
+                <section class="cards__wrap">
+                    <article class="card">
+                        <img src="/assets/images/first-card.svg" alt="" class="card__icon">
+                        <h2 class="card__title">Цели и задачи</h2>
+                        <p class="card__description">
+                            Электронная библиотека ИТМО ориентирована на обеспечение информационных потребностей пользователей в процессе обучения и научной деятельности. В ней содержатся учебная и учебно-методическая литература, авторефераты диссертаций, научные статьи из периодических изданий, документы по истории университета и другие материалы. 
+                        </p>
+                    </article>
+                    <article class="card">
+                        <img src="assets/images/second-card.svg" alt="" class="card__icon">
+                        <h2 class="card__title">Личный кабинет</h2>
+                        <p class="card__description">
+                            Авторизованные пользователи имеют возможность пользоваться дополнительными сервисами Личного кабинета, включая создание списков электронных ресурсов, сохранение поисковых запросов, создание конспектов из фрагментов электронных произведений. Фрагменты произведения могут быть скопированы только из ресурсов, для которых разрешено копирование. 
+                        </p>
+                    </article>
+                    <article class="card">
+                        <img src="assets/images/third-card.svg" alt="" class="card__icon">
+                        <h2 class="card__title">Авторам</h2>
+                        <p class="card__description">
+                            Порядок приема и использования произведений регулируются в соответствии с действующим законодательством, локальными нормативными актами СПбПУ и прямыми договорами с правообладателями. На сайте ФБ СПбПУ приведена информация для авторов, включая порядок приема и оформления электронных документов.
+                        </p>
+                    </article>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__navigation_desktop">
+                <div class="footer__navigation-wrap">
+                    <h4 class="footer__navigation-title">ITMO.STUDENTS</h4>
+                    <ul class="footer__navigation-list">
+                        <li class="footer__navigation-item">Студенческий жизнь</li>
+                        <li class="footer__navigation-item">Студенческая офис</li>
+                        <li class="footer__navigation-item">Мероприятия</li>
+                        <li class="footer__navigation-item">Возможности</li>
+                        <li class="footer__navigation-item">Обучение</li>
+                        <li class="footer__navigation-item">Кампус</li>
+                    </ul>
+                </div>
+                <div class="footer__navigation-wrap">
+                    <h4 class="footer__navigation-title">СЕРВИСЫ</h4>
+                    <ul class="footer__navigation-list">
+                        <li class="footer__navigation-item">Расписание и сессия</li>
+                        <li class="footer__navigation-item">Запись в офис</li>
+                        <li class="footer__navigation-item">Заказать документы</li>
+                        <li class="footer__navigation-item">Корпроративные сервисы</li>
+                    </ul>
+                </div>
+                <div class="footer__navigation-wrap">
+                    <h4 class="footer__navigation-title">КОНТАКТЫ</h4>
+                    <ul class="footer__navigation-list">
+                        <li class="footer__navigation-item">г. Санкт - Петербург , ул.  Ломоносова  , д. 9 , оф. 1400</li>
+                        <li class="footer__navigation-item">Телефон : + 7 ( 812 ) 607 - 04 - 74</li>
+                        <li class="footer__navigation-item">email : so@itmo.ru </li>
+                        <li class="footer__navigation-item">Время работы : пн-пт с 9:00 до 19:00</li>
+                    </ul>
+                    <div class="footer__navigation-networks">
+                        <img src="/assets/images/vk.svg" alt="" class="footer__navigation-network">
+                        <img src="/assets/images/inst.svg" alt="" class="footer__navigation-network">
+                        <img src="/assets/images/twitter.svg" alt="" class="footer__navigation-network">
+                    </div>
+                </div>
+            </div>
+            <img src="/assets/images/footer-mobile__building.svg" alt="" class="footer__building-image_mobile">
+            <img src="/assets/images/logo.svg" alt="" class="footer__logo_mobile">
+            <div class="footer__dropdown">
+                <button
+                    class="footer__dropdown-button"
+                >
+                    Студентам
+                </button>
+                <ul class="footer__dropdown-body">
+                    <a class="footer__dropdown-item">
+                        Обучение
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Студенческая жизнь
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Возможности
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Кампус
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Сервисы
+                    </a>
+                </ul>
+                <button
+                    class="footer__dropdown-button"
+                >
+                    Сервисы
+                </button>
+                <ul class="footer__dropdown-body">
+                    <a class="footer__dropdown-item">
+                        Обучение
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Студенческая жизнь
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Возможности
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Кампус
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Сервисы
+                    </a>
+                </ul>
+                <button
+                    class="footer__dropdown-button"
+                >
+                    Контакты
+                </button>
+                <ul class="footer__dropdown-body">
+                    <a class="footer__dropdown-item">
+                        Обучение
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Студенческая жизнь
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Возможности
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Кампус
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Сервисы
+                    </a>
+                </ul>
+                <button
+                    class="footer__dropdown-button"
+                >
+                    Партнерам
+                </button>
+                <ul class="footer__dropdown-body">
+                    <a class="footer__dropdown-item">
+                        Обучение
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Студенческая жизнь
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Возможности
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Кампус
+                    </a>
+                    <a class="footer__dropdown-item">
+                        Сервисы
+                    </a>
+                </ul>
+            </div>
+            <div class="social-networks__wrap">
+                <h3 class="social-networks__title">
+                    Социальные сети
+                </h3>
+                <div class="social-networks__icons">
+                    <div class="social-networks__first-line">
+                        <img src="/assets/images/vk.svg" alt="" class="social-network__icon">
+                        <img src="/assets/images/inst.svg" alt="" class="social-network__icon">
+                        <img src="/assets/images/twitter.svg" alt="" class="social-network__icon">
+                    </div>
+                    <div class="social-networks__second-line">
+                        <img src="assets/images/telegram.svg" alt="" class="social-network__icon">
+                        <img src="assets/images/odnoklassniki.svg" alt="" class="social-network__icon">
+                    </div>
+                </div>
+                <h3 class="mobile-apps__title">
+                    Мобильные приложения
+                </h3>
+                <div class="mobile-apps__download-links">
+                    <div class="mobile-apps__link-wrap">
+                        <img src="assets/images/app-store.svg" alt="">
+                        <p class="mobile-apps__link-title">App Store</p>
+                    </div>
+                    <div class="mobile-apps__link-wrap">
+                        <img src="assets/images/play-market.svg" alt="">
+                        <p class="mobile-apps__link-title">Play Market</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom-container_desktop">
+                Минобрнауки России
+            </div>
+        </footer>
+    </div>
+    <script>
+        const buttons = document.getElementsByClassName('footer__dropdown-button');
+        [...buttons].forEach(button => {
+
+            button.addEventListener('click', () => {
+                button.nextElementSibling.classList.toggle('footer__dropdown-body_active');
+                button.classList.toggle('footer__dropdown-button_active');
+            });
+        })
+    </script>
+</body>
+</html>
