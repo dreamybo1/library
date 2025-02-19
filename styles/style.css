@@ -43,6 +43,7 @@ html, body {
     align-items: center;
     color: #9F9F9F;
     font-size: 14px;
+    background: none;
 }
 
 .header__select-icon {
