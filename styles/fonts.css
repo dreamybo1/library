@@ -2,20 +2,20 @@
     font-weight: 400;
     font-family: "Muller";
     font-style: normal;
-    src: url(/assets/fonts/MullerRegular.otf) format("opentype")
+    src: url(../assets/fonts/MullerRegular.otf) format("opentype")
 }
   
 @font-face {
     font-weight: 500;
     font-family: "Muller";
     font-style: normal;
-    src: url(/assets/fonts/MullerMedium.otf) format("opentype")
+    src: url(../assets/fonts/MullerMedium.otf) format("opentype")
 }
 
 @font-face {
     font-weight: 700;
     font-family: "Muller";
     font-style: normal;
-    src: url(/assets/fonts/MullerBold.otf) format("opentype")
+    src: url(../assets/fonts/MullerBold.otf) format("opentype")
 }
   
