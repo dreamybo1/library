@@ -1,5 +1,5 @@
-@import 'reset.css';
-@import 'fonts.css';
+@import url('../styles/reset.css');
+@import url('../styles/fonts.css');
 
 *, body, html {
     font-family: 'Muller';
