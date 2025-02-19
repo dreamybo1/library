@@ -242,7 +242,7 @@ html, body {
 
     &::before {
         content: "";
-        background-image: url(/assets/images/dropdown-arrow.svg);
+        background-image: url(../assets/images/dropdown-arrow.svg);
         background-size: contain;
         background-repeat: no-repeat;
         top: 50%;
@@ -285,7 +285,7 @@ html, body {
 
     &::after {
         content: "";
-        background-image: url(/assets/images/dropdown-arrow.svg);
+        background-image: url(../assets/images/dropdown-arrow.svg);
         background-size: contain;
         background-repeat: no-repeat;
         top: 50%;
@@ -662,7 +662,7 @@ html, body {
 
         &::before {
             content: "";
-            background-image: url(/assets/images/dropdown-arrow.svg);
+            background-image: url(../assets/images/dropdown-arrow.svg);
             background-size: contain;
             background-repeat: no-repeat;
             top: 50%;
@@ -705,7 +705,7 @@ html, body {
 
         &::after {
             content: "";
-            background-image: url(/assets/images/dropdown-arrow.svg);
+            background-image: url(../assets/images/dropdown-arrow.svg);
             background-size: contain;
             background-repeat: no-repeat;
             top: 50%;
